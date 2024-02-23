@@ -1,0 +1,24 @@
+# Installieren Sie Ruby on Rails mit dem Befehl: gem install rails
+
+# Erstellen Sie ein neues Ruby on Rails-Projekt mit dem Befehl: rails new MeinWebApp
+# Wechseln Sie in das Projektverzeichnis mit dem Befehl: cd MeinWebApp
+
+# Erstellen Sie ein neues Modell für die Anwendung
+# Führen Sie den Befehl in der Konsole aus: rails generate model Benutzer name:string email:string
+# Migrieren Sie die Datenbank mit dem Befehl: rails db:migrate
+
+# Erstellen Sie einen Controller für die Benutzer mit dem Befehl: rails generate controller Benutzer
+# Definieren Sie Aktionen im Benutzer-Controller, z.B.:
+#   def index
+#     @benutzer = Benutzer.all
+#   end
+
+# Erstellen Sie Ansichten im Verzeichnis app/views/benutzer für die Aktionen des Controllers
+
+# Konfigurieren Sie Routen im Verzeichnis config/routes.rb, z.B.:
+#   Rails.application.routes.draw do
+#     resources :benutzer
+#   end
+
+# Starten Sie den Rails-Server mit dem Befehl: rails server
+# Besuchen Sie http://localhost:3000/benutzer im Webbrowser, um die Anwendung zu sehen
