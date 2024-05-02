@@ -10,12 +10,6 @@
 # Erstellen Sie einen Controller für die Benutzer mit dem Befehl: rails generate controller Benutzer
 # Definieren Sie Aktionen im Benutzer-Controller, z.B.:
 #   def index
-#     @benutzer = Benutzer.all
-#   end
-
-# Erstellen Sie Ansichten im Verzeichnis app/views/benutzer für die Aktionen des Controllers
-
-# Konfigurieren Sie Routen im Verzeichnis config/routes.rb, z.B.:
 #   Rails.application.routes.draw do
 #     resources :benutzer
 #   end
